@@ -10,20 +10,15 @@ A command-line tool for automating the creation of clean architecture folder and
 Clone this repository, then run the following command:
 
 ```bash
-dart pub get
+dart pub global activate clean_arch_tool
 ```
+
 
 ## Usage
 Run the following command in the terminal:
 
 ```bash
-dart run bin/clean_arch_tool.dart --name project_name
-```
-
-or simply:
-
-```bash
-dart run bin/clean_arch_tool.dart -n project_name
+clean_arch_tool -n my_project
 ```
 
 Options:
