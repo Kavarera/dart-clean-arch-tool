@@ -1,10 +1,16 @@
 name: clean_arch_tool
-description: A sample command-line application.
+description: A command-line tool for automating the creation of clean architecture folder and file structures in Flutter projects. This tool helps developers start a Flutter project with a neat and well-structured architecture using just one command.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/Kavarera/dart-clean-arch-tool
+issue_tracker: https://github.com/Kavarera/dart-clean-arch-tool/issues
+homepage: https://github.com/Kavarera/dart-clean-arch-tool
+documentation: https://github.com/Kavarera/dart-clean-arch-tool#readme
 
 environment:
   sdk: ^3.7.0
+
+executables:
+  clean_arch_tool: clean_arch_tool
 
 # Add regular dependencies here.
 dependencies:
@@ -13,3 +19,9 @@ dependencies:
 dev_dependencies:
   lints: ^5.0.0
   test: ^1.24.0
+
+topics:
+  - cli
+  - scaffolding
+  - flutter
+  - clean-architecture
